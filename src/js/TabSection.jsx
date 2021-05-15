@@ -15,16 +15,12 @@ function TabSection() {
                         {/* <img src={Mylogo} className="mylogo"></img> */}
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/abt">About</Nav.Link>
-                        <Nav.Link href="/edu">Education</Nav.Link>
-                        <Nav.Link e href="/exp">
-                            Experience
-                        </Nav.Link>
-                        <Nav.Link e href="/pro">
-                            Project
-                        </Nav.Link>
-                        <Nav.Link href="/con">Contact</Nav.Link>
+                        <Nav.Link href="#">Home</Nav.Link>
+                        <Nav.Link href="#abt">About</Nav.Link>
+                        <Nav.Link href="#edu">Education</Nav.Link>
+                        <Nav.Link href="#exp">Experience</Nav.Link>
+                        <Nav.Link href="#pro">Project</Nav.Link>
+                        <Nav.Link href="#con">Contact</Nav.Link>
                     </Nav>
                 </Navbar>
             </>
