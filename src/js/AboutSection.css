@@ -1,0 +1,35 @@
+.my-image {
+    width: 50%;
+
+    border-radius: 10px;
+    margin-left: 12rem;
+    margin-top: 20px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    height: 665px;
+}
+.content-section {
+    width: 50%;
+}
+
+.about-me {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 19%;
+    padding-top: 25%;
+    text-align: justify;
+}
+.abt {
+    background-color: black;
+    overflow: hidden;
+    height: max-content;
+}
+.badge {
+    font-size: 18px;
+    margin-bottom: 5px;
+}

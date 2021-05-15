@@ -1,0 +1,42 @@
+.into-section {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.body-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading1 {
+    color: #ff80ab;
+
+    font-weight: bold;
+}
+.heading2 {
+    color: #f4b400;
+    font-size: 100px;
+    font-weight: bold;
+}
+.heading3 {
+    color: white;
+
+    font-weight: bold;
+}
+.software {
+    color: #ff1744;
+    font-size: 80px;
+    font-weight: bold;
+}
+.heading-section {
+    margin-top: 10%;
+    /* background-color: lightslategray;
+    border-radius: 2px;
+    width: 100px;
+} */
+}
+.font-design {
+    font-family: 'Bree Serif', serif;
+}

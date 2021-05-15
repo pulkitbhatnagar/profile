@@ -1,0 +1,49 @@
+.contact {
+    background-color: black;
+    height: 721px;
+    overflow: hidden;
+}
+.contact-card {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card-2 {
+    width: 26% !important;
+    background-color: rgb(61, 63, 63);
+    box-shadow: 4px 4px 10px 10px white;
+}
+.front-card {
+    width: 26% !important;
+
+    background-color: rgb(61, 63, 63);
+    box-shadow: 4px 4px 10px 10px white;
+}
+.front-card:hover {
+    background-color: black;
+}
+.contact-card-2:hover {
+    background-color: black;
+}
+.contact-button {
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.map-png {
+    height: 20px;
+    width: 20px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+}

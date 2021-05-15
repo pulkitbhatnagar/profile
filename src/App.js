@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react';
+import HomeSection from './js/HomeSection';
+import AboutSection from './js/AboutSection';
+import EducationSection from './js/EducationSection';
+import ProjectWork from './js/ProjectWork';
+import Experience from './js/Experience';
+import Contact from './js/Contact';
+import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
+import Email from './js/Email';
+export default function App() {
+    return (
+        <BrowserRouter>
+            <div>
+                <Switch>
+                    <Route path="/" component={HomeSection} exact={true} />
+                    <Route path="/abt" component={AboutSection} />
+                    <Route path="/edu" component={EducationSection} />
+                    <Route path="/exp" component={Experience} />
+                    <Route path="/pro" component={ProjectWork} />
+                    <Route path="/con" component={Contact} />
+                </Switch>
+            </div>
+        </BrowserRouter>
+    );
 }
-
-export default App;
