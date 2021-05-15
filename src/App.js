@@ -12,7 +12,7 @@ export default function App() {
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path="/" component={HomeSection} exact={true} />
+                    <Route path="/" component={HomeSection} />
                     <Route path="/abt" component={AboutSection} />
                     <Route path="/edu" component={EducationSection} />
                     <Route path="/exp" component={Experience} />
