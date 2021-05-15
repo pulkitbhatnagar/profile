@@ -12,11 +12,11 @@ export default function App() {
         <div>
             <Switch>
                 <Route path="/" component={HomeSection} exact />
-                <Route path="/abt" component={AboutSection} exact />
-                <Route path="/edu" component={EducationSection} exact />
-                <Route path="/exp" component={Experience} exact />
-                <Route path="/pro" component={ProjectWork} exact />
-                <Route path="/con" component={Contact} exact />
+                <Route path="/abt" component={AboutSection} />
+                <Route path="/edu" component={EducationSection} />
+                <Route path="/exp" component={Experience} />
+                <Route path="/pro" component={ProjectWork} />
+                <Route path="/con" component={Contact} />
             </Switch>
         </div>
     );
